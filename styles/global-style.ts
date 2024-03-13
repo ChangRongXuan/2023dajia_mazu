@@ -1,15 +1,17 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+
   *, *:before, *:after {
     box-sizing: border-box;
   }
   html, body {
-    font-family: 'Noto Sans TC', sans-serif;
     font-size: 16px;
     margin: 0;
-    background-image: url('/images/Group 212.svg');
-    background-color:	#98413A;
+    background-color:	#9E003F;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family:var(--notoSerifTC-font);
   }
   a {
     color: inherit;
